@@ -1,5 +1,7 @@
 """Write one printer apology to the configured output directory.
 Staples give the jam a real cause and 'delicious' supplies the final twist.
+Reject lines longer than 120 characters before writing the entry.
+Write the UTF-8 bytes directly so no trailing newline is added.
 """
 
 import os
